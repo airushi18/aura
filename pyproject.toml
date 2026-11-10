@@ -1,0 +1,27 @@
+[build-system]
+requires = ["setuptools>=69", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "aura-creative-intelligence"
+version = "1.2.0"
+description = "A self-contained creative intelligence agent: evaluate, improve, generate, compare and learn"
+readme = "README.md"
+requires-python = ">=3.11"
+license = {file = "LICENSE"}
+keywords = ["creative-intelligence", "creative-director", "agent", "marketing", "quality-assurance"]
+authors = [{name = "AURA Contributors"}]
+classifiers = [
+ "Programming Language :: Python :: 3",
+ "Programming Language :: Python :: 3.11",
+ "Programming Language :: Python :: 3.12",
+ "Programming Language :: Python :: 3.13",
+ "License :: OSI Approved :: MIT License",
+]
+dependencies = []
+
+[project.scripts]
+aura = "creative_intelligence.cli:main"
+
+[tool.setuptools]
+packages = ["creative_intelligence"]

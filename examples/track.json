@@ -1,0 +1,9 @@
+{
+  "creative_id": "vox-episode-001",
+  "platform": "youtube_shorts",
+  "variant": "hook-b",
+  "metric": "average_percentage_viewed",
+  "value": 83.5,
+  "sample_size": 1000,
+  "notes": "Example data only; replace with actual analytics before recording"
+}

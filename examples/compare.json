@@ -1,0 +1,10 @@
+{
+  "medium": "reel_hook",
+  "platform": "Instagram Reels",
+  "goal": "Get more qualified viewers to stay for the complete original short story",
+  "audience": "General English-speaking entertainment viewers",
+  "alternatives": [
+    {"name": "A - Exposition", "content": "There was once a lonely robot that lost its star."},
+    {"name": "B - Immediate mystery", "content": "Every night, one star vanished. Tonight, it was his turn to find out why."}
+  ]
+}
